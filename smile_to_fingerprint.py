@@ -1,8 +1,6 @@
 import sys
 from pubchempy import *
 
-
-
 def write_to_output(input_file, output_file):
 	for index, line in enumerate(input_file):
 		parsed_line = line.split('\t')
@@ -18,10 +16,6 @@ def write_to_output(input_file, output_file):
 		compound = Compound.from_cid(compound_id)
 		fingerprint = compound.cactvs_fingerprint
 		output_file.write(str(fingerprint) + '\t' + str(value))
-
-
-
-
 
 def main():
 	input_filename = sys.argv[1]
