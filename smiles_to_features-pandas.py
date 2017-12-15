@@ -59,7 +59,7 @@ def compound_series(smiles_file):
         compound_series['ncats_id'] = ncats_id
         
         # add Series to list of compound Series
-        compound_series_list.append(compound.to_series())
+        compound_series_list.append(compound_series)
     
     return compound_series_list
 
@@ -79,7 +79,7 @@ def main():
     args = parser.parse_args()
     input_filename = args.input_file
     input_directory = 'data/'
-    output_directory = 'features_pandas/'
+    output_directory = 'features-pandas/'
     output_filename = output_directory + input_filename + '.features'
 
     with open('data/'+ input_filename + ".smiles", 'r') as smiles_file:
