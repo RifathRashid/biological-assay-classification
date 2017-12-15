@@ -1,0 +1,8 @@
+2017-12-14 18:08:04.003002: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:08:04.003311: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:08:04.003333: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:08:04.003343: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:08:04.003351: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+terminate called after throwing an instance of 'std::system_error'
+  what():  Resource temporarily unavailable
+/srv/gsfs0/admin_stuff/soge-8.1.8/scg4-feb2016/spool/scg4-h17-07/job_scripts/12135: line 1: 182250 Aborted                 python DNN-tensorflow-tuning.py --run_id 14 --rand_seed 848 --assay_name nr-ahr --data_dir data_pcfp_ext --data_file_ext features --loss_balance --kernel_reg_const 0.1 --batch_size 100 --num_epochs 4 --node_array 1024 256 256 1024 1024

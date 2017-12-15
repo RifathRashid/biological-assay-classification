@@ -1,0 +1,71 @@
+2017-12-14 18:11:02.054809: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:11:02.055022: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:11:02.055039: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:11:02.055048: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:11:02.055057: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:11:02.188737: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[1024,256]
+2017-12-14 18:11:02.189334: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[1024,256]
+2017-12-14 18:11:02.192480: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[256,512]
+2017-12-14 18:11:02.195784: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[512,512]
+2017-12-14 18:11:02.199231: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[512,1024]
+2017-12-14 18:11:02.200146: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[512,1024]
+2017-12-14 18:11:02.203697: W tensorflow/core/framework/op_kernel.cc:1192] Resource exhausted: OOM when allocating tensor with shape[914,1024]
+Traceback (most recent call last):
+  File "DNN-tensorflow-tuning.py", line 258, in <module>
+    sess.run(tf.global_variables_initializer())
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 895, in run
+    run_metadata_ptr)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1124, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1321, in _do_run
+    options, run_metadata)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1340, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[1024,256]
+	 [[Node: dense_1/kernel/Adam/Assign = Assign[T=DT_FLOAT, _class=["loc:@dense_1/kernel"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/cpu:0"](dense_1/kernel/Adam, dense_1/kernel/Adam/Initializer/zeros)]]
+
+Caused by op u'dense_1/kernel/Adam/Assign', defined at:
+  File "DNN-tensorflow-tuning.py", line 233, in <module>
+    train_step = tf.train.AdamOptimizer(1e-4).minimize(loss_fn)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/training/optimizer.py", line 325, in minimize
+    name=name)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/training/optimizer.py", line 446, in apply_gradients
+    self._create_slots([_get_variable_for(v) for v in var_list])
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/training/adam.py", line 132, in _create_slots
+    self._zeros_slot(v, "m", self._name)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/training/optimizer.py", line 766, in _zeros_slot
+    named_slots[_var_key(var)] = slot_creator.create_zeros_slot(var, op_name)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/training/slot_creator.py", line 174, in create_zeros_slot
+    colocate_with_primary=colocate_with_primary)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/training/slot_creator.py", line 146, in create_slot_with_initializer
+    dtype)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/training/slot_creator.py", line 66, in _create_slot_var
+    validate_shape=validate_shape)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 1065, in get_variable
+    use_resource=use_resource, custom_getter=custom_getter)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 962, in get_variable
+    use_resource=use_resource, custom_getter=custom_getter)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 367, in get_variable
+    validate_shape=validate_shape, use_resource=use_resource)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 352, in _true_getter
+    use_resource=use_resource)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 725, in _get_single_variable
+    validate_shape=validate_shape)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/ops/variables.py", line 199, in __init__
+    expected_shape=expected_shape)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/ops/variables.py", line 320, in _init_from_args
+    validate_shape=validate_shape).op
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/ops/state_ops.py", line 274, in assign
+    validate_shape=validate_shape)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/ops/gen_state_ops.py", line 43, in assign
+    use_locking=use_locking, name=name)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/framework/op_def_library.py", line 767, in apply_op
+    op_def=op_def)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 2630, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "/home/joycek/anaconda2/envs/env_tox/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 1204, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[1024,256]
+	 [[Node: dense_1/kernel/Adam/Assign = Assign[T=DT_FLOAT, _class=["loc:@dense_1/kernel"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/cpu:0"](dense_1/kernel/Adam, dense_1/kernel/Adam/Initializer/zeros)]]
+

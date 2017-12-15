@@ -1,0 +1,11 @@
+2017-12-14 18:11:01.787045: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:11:01.787402: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:11:01.787413: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:11:01.787419: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-14 18:11:01.787425: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+terminate called recursively
+terminate called after throwing an instance of 'St9bad_alloc'
+  what():  std::bad_alloc
+terminate called recursively
+terminate called recursively
+/srv/gsfs0/admin_stuff/soge-8.1.8/scg4-feb2016/spool/scg4-h17-07/job_scripts/12221: line 1: 184534 Aborted                 python DNN-tensorflow-tuning.py --run_id 100 --rand_seed 848 --assay_name nr-ahr --data_dir data_pcfp_ext --data_file_ext features --loss_balance --kernel_reg_const 0.1 --batch_size 100 --num_epochs 4 --node_array 512 512 1024 256 512
