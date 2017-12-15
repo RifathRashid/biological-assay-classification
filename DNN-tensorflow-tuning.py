@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[5]:
+# In[1]:
 
 
 from __future__ import absolute_import
@@ -20,7 +20,7 @@ import os
 # see full code of tutorial here: https://github.com/tensorflow/tensorflow/blob/r1.4/tensorflow/examples/tutorials/mnist/mnist_deep.py
 
 
-# In[6]:
+# In[2]:
 
 
 ## Utility functions
@@ -80,16 +80,20 @@ def read_features(filename):
     input_file = open(filename, 'r')
     
     for index, line in enumerate(input_file):
-        # split line (1 data point) into smiles, fingerprint (features), 33 extra featues, and label
-        split_line = line.strip().split('\t')
-        fingerprint = [int(c) for c in split_line[2]]
-        label = int(split_line[36])
-        extra_features = split_line[3:36]
-        all_features = fingerprint.extend(extra_features)
-        
-        # append data point to X (features) and Y (labels)
-        X.append(all_features)
-        Y.append(label)
+        try:
+            # split line (1 data point) into smiles, fingerprint (features), 33 extra featues, and label
+            split_line = line.strip().split()
+            fingerprint = [int(c) for c in split_line[2]]
+            label = int(split_line[36])
+            extra_features = split_line[3:36]
+            fingerprint.extend(extra_features)
+
+            # append data point to X (features) and Y (labels)
+            X.append(fingerprint)
+            Y.append(label)
+        except:
+            print('failed to parse data point %d' % index)
+            continue
     input_file.close()
     return (np.array(X), np.array(Y))
 
@@ -137,17 +141,17 @@ filenames = get_data_filenames(data_dir, data_file_ext, assay_name)
 X_train, Y_train = read_features(filenames['train'])
 X_test, Y_test = read_features(filenames['test'])
 num_features = X_train.shape[1]
-# In[7]:
+# In[3]:
 
 
-## if running inside iPython notebook
+# ## if running inside iPython notebook
 
 # # parameters
 # run_id = 1
 # rand_seed = 848
 # assay_name = 'nr-ahr'
-# data_dir = 'fingerprints'
-# data_file_ext = 'fp'
+# data_dir = 'data_pcfp_ext'
+# data_file_ext = 'features'
 # loss_balance = True
 # kernel_reg_const = 0.1
 # batch_size = 50
@@ -172,7 +176,7 @@ num_features = X_train.shape[1]
 # num_features = X_train.shape[1]
 
 
-# In[8]:
+# In[4]:
 
 
 ## Model - basic ##
@@ -233,7 +237,7 @@ correct_prediction = tf.cast(correct_prediction, tf.float32)
 accuracy = tf.reduce_mean(correct_prediction)
 
 
-# In[9]:
+# In[5]:
 
 
 ## Train model ##
@@ -269,7 +273,7 @@ for epoch in range(num_epochs):
         sess.run(train_step, feed_dict={x: batch_x, y_labels: batch_y, q: q_train})
 
 
-# In[10]:
+# In[6]:
 
 
 ## AUROC - sklearn
@@ -284,7 +288,7 @@ fpr, tpr, thresholds = sk.metrics.roc_curve(Y_test, y_prob_test)
 auc_roc = sk.metrics.auc(fpr, tpr)
 
 
-# In[11]:
+# In[8]:
 
 
 ## save parameters, accuracy, and auc_roc
@@ -294,6 +298,8 @@ params['accuracy'] = test_accuracy
 params['auc_roc'] = auc_roc
 params['train_loss'] = train_loss
 params['train_accuracy'] = train_accuracy
+params['data_train_size'] = X_train.shape[0]
+params['data_test_size'] = X_test.shape[0]
 
 series = pd.Series(params)
 df = pd.DataFrame(series)

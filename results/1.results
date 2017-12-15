@@ -1,2 +1,2 @@
-accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
-0.623616,nr-ahr,0.799170124481,50,fingerprints,fp,0.1,True,[512 256 128],3,848,1,0.826748,0.6002
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.7,nr-ahr,0.769787063078,50,data_pcfp_ext,features,150,6266,0.1,True,[512 256 128],3,848,1,0.849824,0.808656
