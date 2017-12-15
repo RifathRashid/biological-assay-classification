@@ -1,0 +1,450 @@
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.593333,nr-ahr,0.50180795500200881,100,data_pcfp_ext,features,150,6266,0.1,True,[0],4,848,0,0.330514,2.02024
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.633333,nr-ahr,0.73362796303736433,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256 1024 1024 1024],4,848,102,0.803383,0.879085
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.553333,nr-ahr,0.72197669746886295,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256  512  512 1024],4,848,103,0.706511,0.919745
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.626667,nr-ahr,0.70510245078344713,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256 1024 1024 1024],4,848,104,0.797159,0.942679
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.72478907191643227,100,data_pcfp_ext,features,150,6266,0.1,True,[512 512 256 256 256],4,848,105,0.714331,0.900788
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.393333,nr-ahr,0.69104057854560064,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  256  256  512],4,848,106,0.622566,0.935193
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.493333,nr-ahr,0.68862997187625552,100,data_pcfp_ext,features,150,6266,0.1,True,[512 512 512 512 256],4,848,107,0.682732,0.92517
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.686667,nr-ahr,0.71353957412615499,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  512  512  512],4,848,108,0.824609,1.01284
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.666667,nr-ahr,0.6850140618722379,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512 1024 1024  256],4,848,109,0.820619,1.02414
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.586667,nr-ahr,0.71876255524306942,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256 1024 1024 1024],4,848,10,0.751037,0.876223
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.553333,nr-ahr,0.70952189634391316,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  256  512 1024],4,848,110,0.739068,0.926652
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.72197669746886306,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  256 1024  512],4,848,111,0.742739,0.859816
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.73001205303334671,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  512  256 1024],4,848,112,0.75375,0.871182
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.433333,nr-ahr,0.69465648854961826,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  256  512  512],4,848,113,0.660549,0.948899
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.36,nr-ahr,0.64965849738850934,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  512  256  512],4,848,114,0.567188,0.996393
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.553333,nr-ahr,0.71635194857372442,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256  512 1024  256],4,848,115,0.73843,0.88057
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.64,nr-ahr,0.71273603856970669,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  512 1024  512],4,848,119,0.801787,0.935338
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.71072719967858577,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  256 1024 1024],4,848,11,0.738908,0.922854
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.706667,nr-ahr,0.70550421856167134,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512 1024  512  512],4,848,120,0.837695,1.01693
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.32,nr-ahr,0.67537163519485732,100,data_pcfp_ext,features,150,6266,0.1,True,[256 512 256 256 512],4,848,121,0.589212,0.952738
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.70711128967456816,100,data_pcfp_ext,features,150,6266,0.1,True,[512 256 256 512 256],4,848,122,0.732684,0.854186
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.506667,nr-ahr,0.72478907191643227,100,data_pcfp_ext,features,150,6266,0.1,True,[512 256 512 256 256],4,848,123,0.681615,0.864298
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.69144234632382484,100,data_pcfp_ext,features,150,6266,0.1,True,[256 512 512 512 512],4,848,124,0.701883,0.948157
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.533333,nr-ahr,0.67898754519887505,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512  512 1024 1024],4,848,125,0.689754,0.940877
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.566667,nr-ahr,0.71635194857372442,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512 1024  512 1024],4,848,126,0.725184,0.917285
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.72,nr-ahr,0.70389714744877463,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512 1024 1024  512],4,848,127,0.827641,1.0921
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.70630775411811975,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024 1024  256 1024],4,848,12,0.743537,0.94578
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.54,nr-ahr,0.69586179188429087,100,data_pcfp_ext,features,150,6266,0.1,True,[512 512 256 512 512],4,848,131,0.725822,0.945588
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.70670952189634395,100,data_pcfp_ext,features,150,6266,0.1,True,[512 512 512 256 512],4,848,132,0.76572,0.896483
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.593333,nr-ahr,0.72880674969867421,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  512 1024  256],4,848,133,0.755187,0.946836
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.633333,nr-ahr,0.6846122940940137,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024 1024  512  256],4,848,134,0.787105,0.994115
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.533333,nr-ahr,0.70470068300522304,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512 1024],4,848,135,0.683051,0.897263
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.693333,nr-ahr,0.72036962635596624,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  256],4,848,136,0.839451,0.999415
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.513333,nr-ahr,0.69586179188429087,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256 1024],4,848,138,0.672838,0.883226
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.48,nr-ahr,0.70349537967055042,100,data_pcfp_ext,features,150,6266,0.1,True,[512 256 512],4,848,139,0.668688,0.881145
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.473333,nr-ahr,0.72197669746886295,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024 1024  512 1024],4,848,13,0.700128,0.968606
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.70188830855765361,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  256],4,848,140,0.793169,0.890096
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.666667,nr-ahr,0.73161912414624353,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  256],4,848,141,0.82014,0.894221
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.66,nr-ahr,0.71153073523503418,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024 1024],4,848,142,0.823492,0.969986
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.566667,nr-ahr,0.7280032141422258,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  512],4,848,143,0.747367,0.836058
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.493333,nr-ahr,0.69827239855363599,100,data_pcfp_ext,features,150,6266,0.1,True,[256 256 256],4,848,144,0.690233,0.863912
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.44,nr-ahr,0.69666532744073928,100,data_pcfp_ext,features,150,6266,0.1,True,[512 512 256 256 512],4,848,145,0.657357,0.936487
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.68943350743270382,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  512  512  256],4,848,146,0.779604,1.00009
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.633333,nr-ahr,0.72077139413419045,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  256 1024  256],4,848,147,0.793489,0.914093
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.626667,nr-ahr,0.72077139413419045,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512 1024  256  256],4,848,148,0.775136,0.895339
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.71675371635194862,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256  512 1024 1024],4,848,149,0.717842,0.889183
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.7127360385697068,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256 1024  512 1024],4,848,150,0.735397,0.869998
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.72760144636400159,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256  256 1024  256],4,848,151,0.687201,0.922218
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.5,nr-ahr,0.7006830052229811,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256 1024  256  256],4,848,152,0.648739,0.915535
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.566667,nr-ahr,0.71675371635194862,100,data_pcfp_ext,features,150,6266,0.1,True,[512 256 256 256 256],4,848,153,0.719757,0.885903
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.42,nr-ahr,0.70108477300120531,100,data_pcfp_ext,features,150,6266,0.1,True,[256 256 256 256 512],4,848,157,0.625439,0.916062
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.546667,nr-ahr,0.73523503415026115,100,data_pcfp_ext,features,150,6266,0.1,True,[256 256 256 512 256],4,848,158,0.71497,0.882903
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.486667,nr-ahr,0.7002812374447569,100,data_pcfp_ext,features,150,6266,0.1,True,[256 256 512 256 256],4,848,159,0.654963,0.89981
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.406667,nr-ahr,0.67416633186018493,100,data_pcfp_ext,features,150,6266,0.1,True,[256 512 256 256 256],4,848,160,0.611714,0.964408
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.546667,nr-ahr,0.73242265970269183,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  256  256  512],4,848,161,0.720555,0.871653
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.513333,nr-ahr,0.72237846524708726,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  256 1024  512],4,848,162,0.723588,0.947695
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.593333,nr-ahr,0.70550421856167134,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024 1024  256  512],4,848,163,0.744813,0.98582
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.64,nr-ahr,0.72077139413419045,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  256  512 1024],4,848,164,0.797319,0.95438
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.606667,nr-ahr,0.71554841301727601,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  256 1024  512],4,848,165,0.774338,0.931378
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.72278023302531147,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  512  256 1024],4,848,166,0.743537,0.931195
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.71353957412615499,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024 1024  256  512],4,848,167,0.709065,0.936351
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.533333,nr-ahr,0.70751305745279225,100,data_pcfp_ext,features,150,6266,0.1,True,[512 512 256 512 256],4,848,168,0.700447,0.941354
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.72519083969465647,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256 1024  512  256],4,848,16,0.741941,0.894692
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.593333,nr-ahr,0.73121735636801921,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512  512  256 1024],4,848,171,0.731408,0.940573
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.54,nr-ahr,0.70751305745279225,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  512 1024  512],4,848,172,0.721034,0.973258
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.533333,nr-ahr,0.70831659300924066,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024 1024  512  512],4,848,173,0.705075,0.974082
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.666667,nr-ahr,0.70269184411410202,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512 1024],4,848,174,0.805777,0.953677
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.546667,nr-ahr,0.69787063077541178,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512  512 1024  256],4,848,175,0.69151,0.943009
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.473333,nr-ahr,0.67376456408196062,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512 1024  512  256],4,848,176,0.647462,0.94615
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.48,nr-ahr,0.70389714744877463,100,data_pcfp_ext,features,150,6266,0.1,True,[256 256 256 256 256],4,848,177,0.630067,0.932136
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.626667,nr-ahr,0.72237846524708726,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  256 1024  256],4,848,178,0.801947,0.970929
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.68421052631578949,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024 1024  256  256],4,848,179,0.753431,0.943517
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.626667,nr-ahr,0.72519083969465647,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  512 1024  512],4,848,17,0.783913,0.865699
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.606667,nr-ahr,0.71876255524306942,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  512  512  512],4,848,180,0.751995,0.915099
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.526667,nr-ahr,0.7428686219365207,100,data_pcfp_ext,features,150,6266,0.1,True,[512 256 256],4,848,181,0.71864,0.828899
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.513333,nr-ahr,0.71595018079550021,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512  256  512 1024],4,848,182,0.702841,0.902755
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.586667,nr-ahr,0.71434310968260339,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512  512  256 1024],4,848,183,0.747846,0.895067
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.553333,nr-ahr,0.70871836078746475,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  256  256  512],4,848,184,0.735717,0.947209
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.66,nr-ahr,0.71434310968260351,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  512  512  512],4,848,185,0.816629,0.998689
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.453333,nr-ahr,0.69184411410204905,100,data_pcfp_ext,features,150,6266,0.1,True,[256 256 512 256 512],4,848,188,0.647622,0.915672
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.626667,nr-ahr,0.71996785857774204,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256  256 1024 1024],4,848,189,0.762528,0.860841
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.74768983527521082,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256 1024  512  512],4,848,18,0.760294,0.827044
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.546667,nr-ahr,0.71273603856970669,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256 1024  256 1024],4,848,190,0.708107,0.885668
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.69907593411008428,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256 1024  512 1024],4,848,191,0.715768,0.94567
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.586667,nr-ahr,0.70831659300924055,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256 1024 1024  512],4,848,192,0.719757,0.930506
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.426667,nr-ahr,0.70952189634391316,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  256  256 1024],4,848,193,0.634695,0.948586
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.606667,nr-ahr,0.7271996785857775,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  256  512  512],4,848,194,0.781838,0.881861
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.71233427079148248,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  512  256  512],4,848,195,0.735078,0.891577
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.52,nr-ahr,0.66291683406990753,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  512  512 1024],4,848,196,0.693744,0.96563
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.67336279630373641,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  512 1024  512],4,848,197,0.747686,0.972068
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.7135395741261551,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024 1024  512  512],4,848,198,0.760294,0.949666
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.633333,nr-ahr,0.73402973081558853,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  256 1024 1024],4,848,199,0.802426,0.917125
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.633333,nr-ahr,0.70912012856568896,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  256  512 1024],4,848,19,0.793648,0.977119
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.626667,nr-ahr,0.71394134190437919,100,data_pcfp_ext,features,150,6266,0.1,True,[256 512 512 512 256],4,848,1,0.767794,0.927586
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.606667,nr-ahr,0.72157492969063886,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512 1024  256 1024],4,848,200,0.751835,0.907131
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.646667,nr-ahr,0.70791482523101656,100,data_pcfp_ext,features,150,6266,0.1,True,[512 512 256],4,848,204,0.812799,0.940774
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.62,nr-ahr,0.75492165528324628,100,data_pcfp_ext,features,150,6266,0.1,True,[256],4,848,205,0.806735,0.84179
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.533333,nr-ahr,0.70309361189232611,100,data_pcfp_ext,features,150,6266,0.1,True,[256 512 512],4,848,206,0.69917,0.900122
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.646667,nr-ahr,0.69827239855363599,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256  512 1024  512],4,848,207,0.79285,0.931855
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.72358376858175977,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256 1024  512  512],4,848,208,0.750239,0.917512
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.62,nr-ahr,0.73322619525914023,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  512 1024  256],4,848,209,0.783434,0.880004
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.71755725190839692,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  512  256 1024],4,848,20,0.7579,0.934417
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.72719967858577739,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256 1024  512  256],4,848,210,0.760772,0.873423
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.72760144636400159,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  256  256 1024],4,848,211,0.768912,0.912274
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.666667,nr-ahr,0.7139413419043793,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  256 1024 1024],4,848,212,0.793329,1.0173
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.69827239855363599,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024 1024  256 1024],4,848,213,0.76939,0.960623
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.54,nr-ahr,0.70389714744877463,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  512  512 1024],4,848,214,0.725343,0.901795
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.72318200080353556,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512 1024 1024 1024],4,848,215,0.760932,0.893005
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.7151466452390518,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  256  512  512],4,848,216,0.738589,0.906598
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.513333,nr-ahr,0.7296102852551225,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  512  256  512],4,848,217,0.709863,0.895136
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.7428686219365207,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  512 1024 1024],4,848,21,0.776093,0.934588
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.506667,nr-ahr,0.71193250301325839,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  256 1024  256],4,848,221,0.689914,0.943595
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.646667,nr-ahr,0.68421052631578949,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024 1024  256  256],4,848,222,0.794606,0.990511
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.586667,nr-ahr,0.71153073523503407,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  512  512  256],4,848,223,0.734919,0.927439
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.593333,nr-ahr,0.72438730413820807,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512 1024 1024  256],4,848,224,0.743696,0.922296
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.5,nr-ahr,0.70108477300120531,100,data_pcfp_ext,features,150,6266,0.1,True,[512 256 512 512 256],4,848,225,0.694861,0.887425
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.553333,nr-ahr,0.69787063077541189,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512  256 1024 1024],4,848,226,0.719598,0.92311
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.66,nr-ahr,0.7006830052229811,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256 1024 1024  256],4,848,228,0.802745,0.93153
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.526667,nr-ahr,0.70912012856568896,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  256 1024  256],4,848,229,0.719598,0.894068
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.72318200080353556,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512 1024  512 1024],4,848,22,0.761411,0.920736
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.706667,nr-ahr,0.67376456408196062,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024 1024  256  256],4,848,230,0.821736,1.04928
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.66,nr-ahr,0.7151466452390518,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  512  256 1024],4,848,231,0.815353,0.989878
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.6850140618722379,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  256  256 1024],4,848,232,0.743537,0.947894
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.673333,nr-ahr,0.73523503415026115,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  512  512 1024],4,848,233,0.808171,1.02455
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.69666532744073928,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024 1024 1024 1024],4,848,234,0.724066,0.974412
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.513333,nr-ahr,0.69787063077541189,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256  256  512 1024],4,848,235,0.696457,0.885298
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.64,nr-ahr,0.68541582965046199,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256  256 1024  512],4,848,236,0.766518,0.930025
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.52,nr-ahr,0.70630775411811975,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256  512  256 1024],4,848,237,0.655921,0.926791
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.426667,nr-ahr,0.70269184411410202,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256 1024  256  512],4,848,238,0.630865,0.927841
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.72719967858577739,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  512 1024 1024],4,848,242,0.733163,0.880838
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.73402973081558853,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256 1024  512 1024],4,848,243,0.756942,0.84858
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.606667,nr-ahr,0.71635194857372442,100,data_pcfp_ext,features,150,6266,0.1,True,[512 512 512],4,848,244,0.787743,0.87532
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.646667,nr-ahr,0.71956609079951783,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  512],4,848,246,0.840249,0.898414
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.62,nr-ahr,0.71996785857774204,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024 1024],4,848,247,0.789978,0.911901
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.666667,nr-ahr,0.68983527521092813,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  512],4,848,248,0.815033,0.960102
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.71996785857774204,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  256],4,848,249,0.781041,0.814174
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.533333,nr-ahr,0.71353957412615499,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  256  512  256],4,848,24,0.739547,0.874927
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.62,nr-ahr,0.70871836078746475,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512 1024],4,848,250,0.815353,0.938945
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.653333,nr-ahr,0.73282442748091603,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  512],4,848,251,0.840568,0.997236
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.486667,nr-ahr,0.72760144636400159,100,data_pcfp_ext,features,150,6266,0.1,True,[256 256 512],4,848,252,0.697095,0.863569
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.54,nr-ahr,0.71032543190036157,100,data_pcfp_ext,features,150,6266,0.1,True,[256 512 256],4,848,253,0.698372,0.868629
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.653333,nr-ahr,0.68742466854158302,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024 1024 1024  256],4,848,254,0.822215,1.00487
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.72559260747288068,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256 1024],4,848,255,0.751357,0.849969
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.71273603856970669,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  256  256  256],4,848,256,0.757421,0.983738
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.606667,nr-ahr,0.73081558858979512,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  512  256  256],4,848,25,0.758857,0.882881
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.5,nr-ahr,0.69787063077541189,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512  256 1024  256],4,848,260,0.687839,0.888984
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.526667,nr-ahr,0.71032543190036157,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512 1024  256  256],4,848,261,0.677146,0.91636
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.7006830052229811,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  256  512  256],4,848,262,0.715768,0.950314
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.48,nr-ahr,0.68220168742466858,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  512  256  256],4,848,263,0.624322,0.986582
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.72157492969063874,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256  256  256 1024],4,848,264,0.748005,0.864957
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.546667,nr-ahr,0.70912012856568896,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256 1024 1024  256],4,848,265,0.717842,0.883222
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.48,nr-ahr,0.68943350743270382,100,data_pcfp_ext,features,150,6266,0.1,True,[256 512 256 512 256],4,848,266,0.627514,0.946755
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.71876255524306942,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256  512 1024  256],4,848,268,0.745452,0.903587
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.73483326637203694,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256 1024],4,848,269,0.750239,0.839317
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.593333,nr-ahr,0.70871836078746486,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512  512  512 1024],4,848,26,0.753591,0.89796
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.64,nr-ahr,0.68862997187625552,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512  256 1024  256],4,848,270,0.783913,0.927209
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.70550421856167134,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512 1024  256  256],4,848,271,0.717683,0.910517
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.633333,nr-ahr,0.72559260747288068,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  256  512 1024],4,848,272,0.783594,0.947162
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.606667,nr-ahr,0.71313780634793078,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  256  512 1024 1024],4,848,273,0.769231,0.927993
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.72398553635998386,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512  512 1024  512],4,848,27,0.756783,0.925087
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.5,nr-ahr,0.69505825632784246,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512 1024  512  512],4,848,28,0.694382,0.94052
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.493333,nr-ahr,0.71434310968260351,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512 1024 1024 1024],4,848,29,0.687999,0.952495
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.71313780634793078,100,data_pcfp_ext,features,150,6266,0.1,True,[512 256 256 512 512],4,848,2,0.72279,0.864316
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.553333,nr-ahr,0.69264764965849734,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512  256 1024  512],4,848,30,0.68736,0.939906
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.533333,nr-ahr,0.69425472077139405,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512 1024  256  512],4,848,31,0.681615,0.956107
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.673333,nr-ahr,0.69023704298915223,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024 1024 1024  512],4,848,32,0.806575,1.07365
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.586667,nr-ahr,0.73322619525914012,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256  256 1024 1024],4,848,33,0.774976,0.892124
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.533333,nr-ahr,0.71836078746484533,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512 1024  512  512],4,848,37,0.71082,0.891078
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.593333,nr-ahr,0.70871836078746486,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  512  512 1024],4,848,38,0.757261,0.919684
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.71193250301325828,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024 1024 1024 1024],4,848,39,0.778647,0.963805
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.62,nr-ahr,0.72358376858175966,100,data_pcfp_ext,features,150,6266,0.1,True,[512 256 512 256 512],4,848,3,0.788701,0.877609
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.546667,nr-ahr,0.71715548413017283,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  256  256  512],4,848,40,0.721353,0.86243
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.566667,nr-ahr,0.72599437525110488,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  512  512  512],4,848,41,0.741621,0.886896
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.526667,nr-ahr,0.71554841301727601,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512  256 1024 1024],4,848,42,0.686084,0.913706
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.54,nr-ahr,0.71032543190036157,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512 1024  256 1024],4,848,43,0.718481,0.916201
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.73684210526315785,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256 1024 1024  512],4,848,44,0.809767,0.892489
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.426667,nr-ahr,0.68943350743270382,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512  512 1024  256],4,848,45,0.62512,0.956555
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.553333,nr-ahr,0.71755725190839692,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  256  512  512],4,848,49,0.726939,0.90097
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.706667,nr-ahr,0.70309361189232622,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256  512 1024 1024  256],4,848,4,0.817906,1.08488
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.71996785857774204,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  512  256  512],4,848,50,0.7421,0.855571
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.626667,nr-ahr,0.71715548413017272,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  512 1024 1024],4,848,51,0.777689,0.945682
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.62,nr-ahr,0.72358376858175977,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024 1024  512 1024],4,848,52,0.775455,0.917091
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.433333,nr-ahr,0.73282442748091614,100,data_pcfp_ext,features,150,6266,0.1,True,[512 256 256 256 512],4,848,53,0.667731,0.888735
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.69465648854961826,100,data_pcfp_ext,features,150,6266,0.1,True,[512 256 512 512 512],4,848,54,0.725343,0.886065
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.686667,nr-ahr,0.7292085174768983,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256 1024 1024  512],4,848,55,0.826205,0.964651
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.426667,nr-ahr,0.71193250301325839,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  256 1024  512],4,848,56,0.665975,0.919716
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.606667,nr-ahr,0.77018883085576539,100,data_pcfp_ext,features,150,6266,0.1,True,[512],4,848,57,0.809767,0.750449
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.76014463640016072,100,data_pcfp_ext,features,150,6266,0.1,True,[1024],4,848,58,0.815193,0.732572
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.586667,nr-ahr,0.72599437525110488,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024 1024  256  512],4,848,59,0.76955,0.923852
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.566667,nr-ahr,0.72237846524708715,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  256  512 1024],4,848,5,0.735078,0.865122
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.433333,nr-ahr,0.72036962635596624,100,data_pcfp_ext,features,150,6266,0.1,True,[256 512 256 512 512],4,848,60,0.646984,0.938285
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.52,nr-ahr,0.68380875853756529,100,data_pcfp_ext,features,150,6266,0.1,True,[256 512 512 256 512],4,848,61,0.697893,0.907039
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.58,nr-ahr,0.71112896745680998,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024  512 1024 1024],4,848,62,0.730929,0.950168
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.526667,nr-ahr,0.73001205303334671,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512 1024 1024  512 1024],4,848,63,0.701245,0.927453
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.71595018079550021,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  256],4,848,64,0.714651,0.922762
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.72519083969465647,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256  256 1024  256],4,848,65,0.727418,0.882046
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.533333,nr-ahr,0.69063881076737643,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256 1024  256  256],4,848,66,0.697255,0.88776
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.71996785857774204,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  256  256  256],4,848,67,0.735557,0.856441
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.733333,nr-ahr,0.70269184411410202,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  512  512  256],4,848,68,0.848867,1.15467
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.593333,nr-ahr,0.71836078746484533,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024 1024 1024  256],4,848,69,0.75774,0.954845
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.626667,nr-ahr,0.73242265970269171,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  512  256 1024],4,848,6,0.773699,0.883176
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.73282442748091603,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256 1024 1024  256],4,848,72,0.776732,0.87816
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.72679791080755318,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256 1024  256  256],4,848,73,0.76189,0.858287
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.72599437525110488,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  256 1024  256],4,848,74,0.780402,0.863372
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.566667,nr-ahr,0.70992366412213737,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024 1024  512  256],4,848,75,0.747686,0.923432
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.626667,nr-ahr,0.69827239855363599,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  512 1024  256],4,848,79,0.779604,0.982498
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.666667,nr-ahr,0.67014865407794288,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  512 1024  512],4,848,7,0.800351,0.987356
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.633333,nr-ahr,0.68742466854158291,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024 1024  512  256],4,848,80,0.770508,0.980202
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.56,nr-ahr,0.74126155082362399,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512  512  512 1024],4,848,81,0.743696,0.891886
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.586667,nr-ahr,0.72278023302531136,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  512 1024 1024 1024],4,848,82,0.728216,0.961981
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.526667,nr-ahr,0.70871836078746486,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256  512 1024  512],4,848,83,0.715768,0.926824
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.70269184411410202,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256 1024  512  512],4,848,84,0.759655,0.87598
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.70952189634391316,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512  512 1024  256],4,848,85,0.759017,0.900571
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.573333,nr-ahr,0.7296102852551225,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512 1024  512  256],4,848,86,0.758698,0.923017
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.6,nr-ahr,0.70630775411811975,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  256  512  512],4,848,87,0.779125,0.944823
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.626667,nr-ahr,0.70148654077942951,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  512  256  512],4,848,88,0.799553,0.959965
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.493333,nr-ahr,0.6858175974286862,100,data_pcfp_ext,features,150,6266,0.1,True,[ 256 1024  512 1024 1024],4,848,89,0.686403,0.950479
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.7,nr-ahr,0.7002812374447569,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024 1024  512  512],4,848,8,0.830993,1.08723
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.54,nr-ahr,0.70871836078746486,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256  256 1024  512],4,848,90,0.720715,0.888994
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.42,nr-ahr,0.71072719967858577,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256 1024  256  512],4,848,91,0.651771,0.909804
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.566667,nr-ahr,0.71313780634793089,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024  512  512  512],4,848,95,0.728375,0.937715
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.586667,nr-ahr,0.72197669746886306,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512 1024 1024  512],4,848,96,0.750399,0.915482
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.706667,nr-ahr,0.71032543190036157,100,data_pcfp_ext,features,150,6266,0.1,True,[1024 1024 1024 1024  512],4,848,97,0.833067,1.11932
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.7296102852551225,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  256  256  256 1024],4,848,98,0.788222,0.840561
+accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
+0.613333,nr-ahr,0.70670952189634395,100,data_pcfp_ext,features,150,6266,0.1,True,[ 512  256  512  512 1024],4,848,9,0.76157,0.896737

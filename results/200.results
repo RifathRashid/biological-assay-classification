@@ -1,2 +1,2 @@
 accuracy,assay_name,auc_roc,batch_size,data_dir,data_file_ext,data_test_size,data_train_size,kernel_reg_const,loss_balance,node_array,num_epochs,rand_seed,run_id,train_accuracy,train_loss
-0.626667,nr-ahr,0.71394134190437919,100,data_pcfp_ext,features,150,6266,0.1,True,[256 512 512 512 256],4,848,1,0.767794,0.927586
+0.606667,nr-ahr,0.72157492969063886,100,data_pcfp_ext,features,150,6266,0.1,True,[1024  512 1024  256 1024],4,848,200,0.751835,0.907131
