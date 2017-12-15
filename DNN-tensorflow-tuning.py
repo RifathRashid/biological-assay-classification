@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[5]:
 
 
 from __future__ import absolute_import
@@ -16,14 +16,11 @@ import tensorflow as tf
 import argparse
 import os
 
-import matplotlib.pyplot as plt
-# get_ipython().run_line_magic('matplotlib', 'inline')
-
 # structure of code largely based on tensorflow tutorial for deep neural nets: https://www.tensorflow.org/get_started/mnist/pros
 # see full code of tutorial here: https://github.com/tensorflow/tensorflow/blob/r1.4/tensorflow/examples/tutorials/mnist/mnist_deep.py
 
 
-# In[2]:
+# In[6]:
 
 
 ## Utility functions
@@ -38,7 +35,7 @@ def get_data_filenames(data_dir, data_file_ext, assay_name):
     '''
     return {subfolder: os.path.join(os.getcwd(), data_dir, subfolder, '') + assay_name + '.' + data_file_ext             for subfolder in ['train', 'test', 'score']}
 
-def read_file(filename):
+def read_fingerprint(filename):
     '''
     Parameters
     - filename: str
@@ -67,6 +64,35 @@ def read_file(filename):
     input_file.close()
     return (np.array(X), np.array(Y))
 
+def read_features(filename):
+    '''
+    Parameters
+    - filename: str
+        File must be tab-delimited as follows: smiles code, cid, pubchem_fingerprint, 33 extra features (tab-delimited), label
+    
+    Returns
+    - (X, Y): tuple of np.arrays
+        X is an array of features
+        Y is a vector of labels
+    '''
+    X = []
+    Y = []
+    input_file = open(filename, 'r')
+    
+    for index, line in enumerate(input_file):
+        # split line (1 data point) into smiles, fingerprint (features), 33 extra featues, and label
+        split_line = line.strip().split('\t')
+        fingerprint = [int(c) for c in split_line[2]]
+        label = int(split_line[36])
+        extra_features = split_line[3:36]
+        all_features = fingerprint.extend(extra_features)
+        
+        # append data point to X (features) and Y (labels)
+        X.append(all_features)
+        Y.append(label)
+    input_file.close()
+    return (np.array(X), np.array(Y))
+
 ## if running as main function
 
 # construct parser
@@ -76,7 +102,7 @@ parser.add_argument('--rand_seed', type=int, default='848', help='graph-level ra
 parser.add_argument('--assay_name', type=str, required=True, help='assay name, e.g. nr-ar, sr-are, ...')
 parser.add_argument('--data_dir', type=str, required=True, help='name of directory to find train, test, and score data files')
 parser.add_argument('--data_file_ext', type=str, default='data', help='file extension, exluduing the period (e.g. ''fp'', ''data'', etc)')
-parser.add_argument('--loss_balance', action='store_false', help='adjust loss function to account for unbalanced dataset, default = true')
+parser.add_argument('--loss_balance', action='store_true', help='adjust loss function to account for unbalanced dataset, default = false')
 parser.add_argument('--kernel_reg_const', type=float, default=0.1, help='L2 kernel regularization constant')
 parser.add_argument('--batch_size', type=int, default=1, help='batch size. default = 1 (SGD)')
 parser.add_argument('--num_epochs', type=int, default=1, help='number of epochs (passes through entire training set)')
@@ -84,49 +110,69 @@ parser.add_argument('--node_array', nargs='*', required=True, help='sizes of hid
 
 # parse arguments
 args = parser.parse_args()
-rand_seed = args.rand_seed
 run_id = args.run_id
+rand_seed = args.rand_seed
 assay_name = args.assay_name
 data_dir = args.data_dir
 data_file_ext = args.data_file_ext.lstrip('.')
 loss_balance = args.loss_balance
-scale = args.kernel_reg_const
+kernel_reg_const = args.kernel_reg_const
 batch_size = args.batch_size
 num_epochs = args.num_epochs
 node_array = np.array(args.node_array, dtype=int)
 
+params={'run_id': run_id,
+        'rand_seed': rand_seed,
+        'assay_name': assay_name,
+        'data_dir': data_dir,
+        'data_file_ext': data_file_ext,
+        'loss_balance': loss_balance,
+        'kernel_reg_const': kernel_reg_const,
+        'batch_size': batch_size,
+        'num_epochs': num_epochs,
+        'node_array': node_array}
+
 # get data
 filenames = get_data_filenames(data_dir, data_file_ext, assay_name)
-X_train, Y_train = read_file(filenames['train'])
-X_test, Y_test = read_file(filenames['test'])
-X_score, Y_score = read_file(filenames['score'])
+X_train, Y_train = read_features(filenames['train'])
+X_test, Y_test = read_features(filenames['test'])
 num_features = X_train.shape[1]
-# In[3]:
+# In[7]:
 
 
-# ## if running inside iPython notebook
+## if running inside iPython notebook
 
 # # parameters
-# rand_seed = 848
 # run_id = 1
+# rand_seed = 848
 # assay_name = 'nr-ahr'
 # data_dir = 'fingerprints'
 # data_file_ext = 'fp'
 # loss_balance = True
-# scale = 0.1
+# kernel_reg_const = 0.1
 # batch_size = 50
 # num_epochs = 3
 # node_array = np.array([512, 256, 128])
 
+# params={'run_id': run_id,
+#         'rand_seed': rand_seed,
+#         'assay_name': assay_name,
+#         'data_dir': data_dir,
+#         'data_file_ext': data_file_ext,
+#         'loss_balance': loss_balance,
+#         'kernel_reg_const': kernel_reg_const,
+#         'batch_size': batch_size,
+#         'num_epochs': num_epochs,
+#         'node_array': node_array}
+
 # # get data
 # filenames = get_data_filenames(data_dir, data_file_ext, assay_name)
-# X_train, Y_train = read_file(filenames['train'])
-# X_test, Y_test = read_file(filenames['test'])
-# X_score, Y_score = read_file(filenames['score'])
+# X_train, Y_train = read_features(filenames['train'])
+# X_test, Y_test = read_features(filenames['test'])
 # num_features = X_train.shape[1]
 
 
-# In[4]:
+# In[8]:
 
 
 ## Model - basic ##
@@ -135,14 +181,14 @@ num_features = X_train.shape[1]
 # Probability of classifying into the positive class = sigmoid(logit)
 # logit can take on any real value
 
-def deepnn_params(x, nodes, scale=0.1):
+def deepnn_params(x, nodes, kernel_reg_const=0.1):
     """
     deepnn builds the graph for a deep net for learning the logit
 
     Args:
         x: input layer. type = tf.Tensor. size = (batch_size, num_features)
         nodes: a list of number of nodes in hidden layers. type = np.ndarray
-        scale: L2 regularization weights. type = float
+        kernel_reg_const: L2 regularization weights. type = float
 
     Returns:
         y: a tensor of length batch_size with values equal to the logits
@@ -155,8 +201,8 @@ def deepnn_params(x, nodes, scale=0.1):
     
     num_hidden_layers = min(nodes.size,nodes[0])
     for i in range(num_hidden_layers):
-        layers.append(tf.layers.dense(inputs=layers[i], units=nodes[i], activation=tf.nn.relu, kernel_regularizer=tf.contrib.layers.l2_regularizer(scale)))
-    layers.append(tf.layers.dense(inputs=layers[num_hidden_layers], units=1, activation=None, kernel_regularizer=tf.contrib.layers.l2_regularizer(scale)))
+        layers.append(tf.layers.dense(inputs=layers[i], units=nodes[i], activation=tf.nn.relu, kernel_regularizer=tf.contrib.layers.l2_regularizer(kernel_reg_const)))
+    layers.append(tf.layers.dense(inputs=layers[num_hidden_layers], units=1, activation=None, kernel_regularizer=tf.contrib.layers.l2_regularizer(kernel_reg_const)))
     return tf.squeeze(layers[-1])
 
 # sign tensorflow function
@@ -173,7 +219,7 @@ y_labels = tf.placeholder(tf.float32, [None]) # domain: {0,1}
 q = tf.placeholder(tf.float32, None)
 
 # Build the graph for the deep net
-y_score = deepnn_params(x, node_array, scale)
+y_score = deepnn_params(x, node_array, kernel_reg_const)
 y_prob = tf.sigmoid(y_score)
 
 # Define loss and optimizer
@@ -187,7 +233,7 @@ correct_prediction = tf.cast(correct_prediction, tf.float32)
 accuracy = tf.reduce_mean(correct_prediction)
 
 
-# In[5]:
+# In[9]:
 
 
 ## Train model ##
@@ -197,42 +243,15 @@ np.random.seed(rand_seed)
 # calculate frequencies of positives, negatives in training set
 # - https://stackoverflow.com/questions/35155655/loss-function-for-class-imbalanced-binary-classifier-in-tensor-flow
 q_train = Y_train.size/np.sum(Y_train)
-q_test = Y_test.size/np.sum(Y_test)
-print('q_train: %0.3g \t q_test: %0.3g' % (q_train, q_test))
 if not loss_balance:
     q_train = 1
 
 # training parameters
 num_batches_per_epoch = int(np.ceil(len(X_train) / batch_size))
-print("Number of batches per epoch: %d " % num_batches_per_epoch)
-
-# keep track of loss and accuracy
-train_losses = []
-train_accs = []
-test_losses = []
-test_accs = []
-track_iter = []
-track_freq = 50
 
 sess = tf.InteractiveSession()
 tf.set_random_seed(rand_seed)
 sess.run(tf.global_variables_initializer())
-saver = tf.train.Saver()
-
-# accuracy based on initialized weights
-test_accuracy, test_loss = sess.run([accuracy, loss_fn], feed_dict={x: X_test, y_labels: Y_test, q: q_train})
-train_accuracy, train_loss = sess.run([accuracy, loss_fn], feed_dict={x: X_train, y_labels: Y_train, q: q_train})
-test_accs.append(test_accuracy)
-test_losses.append(test_loss)
-train_accs.append(train_accuracy)
-train_losses.append(train_loss)
-track_iter.append(0)
-
-# tensorflow model save location
-model_savepath = os.path.join(os.getcwd(), '') + 'deepnn_model_weights' + str(run_id) + '.ckpt'
-saver.save(sess, model_savepath)
-print('initial test accuracy %0.3g' % test_accuracy)
-print('initial test loss %0.3g' % test_loss)
 
 # training loop
 for epoch in range(num_epochs):
@@ -249,126 +268,36 @@ for epoch in range(num_epochs):
         # train on batch data
         sess.run(train_step, feed_dict={x: batch_x, y_labels: batch_y, q: q_train})
 
-        # store loss and accuracy
-        if i % track_freq == 0 or i == num_batches_per_epoch-1:
-            test_accuracy, test_loss = sess.run([accuracy, loss_fn], feed_dict={x: X_test, y_labels: Y_test, q: q_train})
-            train_accuracy, train_loss = sess.run([accuracy, loss_fn], feed_dict={x: X_train, y_labels: Y_train, q: q_train})
-            test_accs.append(test_accuracy)
-            test_losses.append(test_loss)
-            train_accs.append(train_accuracy)
-            train_losses.append(train_loss)
-            track_iter.append(epoch*num_batches_per_epoch+i+1)
-            print('step %d, \t train loss: %0.3g,\t test loss: %0.3g,\t train acc: %0.3g,\t test acc: %0.3g\t' % (i, train_loss, test_loss, train_accuracy, test_accuracy))
-
-            # save variables only if accuracy has increased
-            if test_accuracy > max(test_accs):
-                saver.save(sess, model_savepath)
-
-print("Best test accuracy: %0.3g" % max(test_accs))
-
-
-# In[6]:
-
-
-# Plot accuracy of test set prediction
-plt.figure()
-plt.plot(track_iter, test_accs)
-plt.xlabel('Number of SGD batches')
-plt.ylabel('Accuracy')
-plt.title('Accuracy of test set prediction versus SGD iteration')
-
-# Plot training loss
-plt.figure()
-plt.plot(track_iter, train_losses)
-plt.xlabel('Number of SGD batches')
-plt.ylabel('Loss')
-plt.title('Training loss versus SGD iteration')
-
-
-# In[7]:
-
-
-## AUROC - sklearn
-
-# get normalized score, i.e. probability of classifying into positive class
-y_prob_score = sess.run(y_prob, feed_dict={x: X_score})
-score_accuracy = sess.run(accuracy, feed_dict={x: X_score, y_labels: Y_score})
-print('Final scoring accuracy: %0.3g' % score_accuracy)
-print('Final confusion matrix: ')
-print(sk.metrics.confusion_matrix(Y_score, sign(y_prob_score, 0.5)), '\n')
-
-fpr, tpr, thresholds = sk.metrics.roc_curve(Y_score, y_prob_score)
-auc_roc = sk.metrics.auc(fpr, tpr)
-print('AUC: %0.3g' % auc_roc)
-
-plt.figure()
-plt.plot(fpr, tpr, label='AUC = ' + str(round(auc_roc, 3)))
-plt.xlabel('False positive rate')
-plt.ylabel('True positive rate')
-plt.title('ROC curve')
-plt.legend()
-
-# for t in thresholds:
-#     prediction = sign(score, t)
-#     c = sk.metrics.confusion_matrix(Y_val, prediction)
-#     print(c)
-
-
-# In[8]:
-
-
-## Compute the saliency map
-
-# Compute the score of the correct class for each example.
-# This gives a Tensor with shape [N], the number of examples.
-correct_scores = y_labels*y_prob + (1-y_labels)*(1-y_prob)
-
-# Gradient of the scores with respect to the input features x
-grads_fun = tf.gradients(correct_scores, x)[0]
-
-# Final saliency map has shape (size_training_data, num_features)
-saliency_vecs = sess.run(grads_fun, feed_dict={x: X_train, y_labels: Y_train})
-
-
-# In[9]:
-
-
-# bar plot (mean + sample standard deviation) of saliency of all features
-# see here for meaning of features: ftp://ftp.ncbi.nlm.nih.gov/pubchem/specifications/pubchem_fingerprints.txt
-mean_saliency = np.mean(saliency_vecs, axis=0)
-stddev_saliency = np.std(saliency_vecs, axis=0, ddof=1)
-plt.figure(figsize=(100,10))
-plt.bar(range(881), mean_saliency, width=1, yerr=stddev_saliency)
-
 
 # In[10]:
 
 
-# bar plot (mean + sample standard deviation) of saliency of top n features
-n_top = 10
-n_bottom = 10
-mean_saliency = np.mean(saliency_vecs, axis=0)
-stddev_saliency = np.std(saliency_vecs, axis=0, ddof=1)
+## AUROC - sklearn
 
-idx_sort = np.argsort(mean_saliency)
+train_accuracy, train_loss = sess.run([accuracy, loss_fn], feed_dict={x: X_train, y_labels: Y_train, q: q_train})
 
-top_ind = idx_sort[-n_top:][::-1]
-top_val = mean_saliency[top_ind]
-top_std = stddev_saliency[top_ind]
+# get normalized score, i.e. probability of classifying into positive class
+y_prob_test = sess.run(y_prob, feed_dict={x: X_test})
+test_accuracy = sess.run(accuracy, feed_dict={x: X_test, y_labels: Y_test})
 
-plt.figure(figsize=(10,10))
-plt.bar(range(n_top), top_val, width=1, yerr=top_std, tick_label=top_ind)
-plt.xlabel('fingerprint index', fontsize='18')
-plt.ylabel('gradient of predicted probability of toxicity', fontsize='18')
-plt.title('Top 10 predictive features for toxicity', fontsize='24')
+fpr, tpr, thresholds = sk.metrics.roc_curve(Y_test, y_prob_test)
+auc_roc = sk.metrics.auc(fpr, tpr)
 
-bottom_ind = idx_sort[0:n_bottom]
-bottom_val = mean_saliency[bottom_ind]
-bottom_std = stddev_saliency[bottom_ind]
 
-plt.figure(figsize=(10,10))
-plt.bar(range(n_bottom), bottom_val, width=1, yerr=bottom_std, tick_label=bottom_ind)
-plt.xlabel('fingerprint index', fontsize='18')
-plt.ylabel('gradient of predicted probability of toxicity', fontsize='18')
-plt.title('Top 10 predictive features for non-toxicity', fontsize='24')
+# In[11]:
+
+
+## save parameters, accuracy, and auc_roc
+results_file = os.path.join(os.getcwd(), 'results','') + str(run_id) + '.results'
+
+params['accuracy'] = test_accuracy
+params['auc_roc'] = auc_roc
+params['train_loss'] = train_loss
+params['train_accuracy'] = train_accuracy
+
+series = pd.Series(params)
+df = pd.DataFrame(series)
+df = df.T
+df.to_csv(results_file, index=False)
+# series.to_csv(results_file)
 
