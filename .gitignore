@@ -89,6 +89,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+env35_tf/
 
 # Spyder project settings
 .spyderproject
